@@ -13,8 +13,34 @@ $ git clone https://github.com/pabferde/galaxy_dynamics_from_Vd.git
 $ cd galaxy_dynamics_from_Vd
 ```
 
-Install the requirements (..., pytest for testing the code).
-The recommendation is to do it after creating a virtualenv and activating it:
+Install the requirements:
 
-Dependences:
-To install
+- numpy, scipy: for mathematical and optimisation purposes;
+- emcee: for running the Markov chain Monte Carlo;
+- matplotlib, corner: for data visualisation;
+- pytest: for testing the code;
+- jupyter: for accessing the example in the jupyter notebook.
+
+The recommendation is to do it after creating a virtualenv and activating it:
+```
+# Optional (recommended): create a virtualenv venv and activate it
+$ python3 -m venv venv
+$ source venv/bin/activate
+# Install requirements
+$ python3 -m pip install -r requirements.txt
+```
+
+## Run the notebook with the example
+
+To run the jupyter notebook, simply call it:
+```
+$ jupyter notebook Analysis-example.ipynb
+```
+
+## Test
+
+The code includes a test unit that checks the correct performance of relevant parts of the code. To run the test unit, simply call pytest in the package folder:
+```
+$ pytest
+```
+
