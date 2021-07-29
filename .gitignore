@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Extended package including agama and Double Exponential disks
+src/GalaxyDynamicsFromVc_extended/
+
 # C extensions
 *.so
 
