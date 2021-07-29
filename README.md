@@ -1,7 +1,7 @@
 # galaxy_dynamics_from_Vc
 Python package to analyse a galactic model given circular velocity data. It contains a jupyter notebook with a working example.
 
-This repository contains the Python package GalaxyDynamicsFromVc, which is intended for the inference of a galactic model's parameters, given circular velocity data. A modified version of this code has been used to obtain the results of the scientific publication <a href="https://doi.org/10.1088/1475-7516/2019/10/037" target="_blank">P.F. de Salas et al., JCAP 10 (2019) 037</a>, <a href="https://arxiv.org/abs/1906.06133" target="_blank">[arXiv:1906.06133]</a>.
+This repository contains the Python package GalaxyDynamicsFromVc, which is intended for the inference of the parameters of a galactic model, given circular velocity data. A modified version of this code has been used to obtain the results of the scientific publication <a href="https://doi.org/10.1088/1475-7516/2019/10/037" target="_blank">P.F. de Salas et al., JCAP 10 (2019) 037</a>, <a href="https://arxiv.org/abs/1906.06133" target="_blank">[arXiv:1906.06133]</a>.
 
 The jupyter notebook goes through a working example.
 
@@ -9,8 +9,8 @@ The jupyter notebook goes through a working example.
 
 Clone the repository
 ```
-$ git clone https://github.com/pabferde/galaxy_dynamics_from_Vd.git
-$ cd galaxy_dynamics_from_Vd
+$ git clone https://github.com/pabferde/galaxy_dynamics_from_Vc.git
+$ cd galaxy_dynamics_from_Vc
 ```
 
 Install the requirements:
